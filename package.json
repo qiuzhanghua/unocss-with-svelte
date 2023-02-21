@@ -1,0 +1,36 @@
+{
+  "name": "unocss-with-svelte",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "check": "svelte-check --tsconfig ./tsconfig.json",
+    "lint": "eslint src --ext .ts --ext .svelte --ext .html",
+    "format": "prettier --write --plugin-search-dir=. \"./**/*.svelte\" --write"
+  },
+  "devDependencies": {
+    "@iconify-json/logos": "^1.1.23",
+    "@sveltejs/vite-plugin-svelte": "^2.0.2",
+    "@tsconfig/svelte": "^3.0.0",
+    "@typescript-eslint/eslint-plugin": "^5.53.0",
+    "@unocss/core": "^0.49.7",
+    "@unocss/preset-icons": "^0.49.7",
+    "@unocss/preset-uno": "^0.49.7",
+    "eslint": "^8.34.0",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-svelte3": "^4.0.0",
+    "prettier": "^2.8.4",
+    "prettier-plugin-svelte": "^2.9.0",
+    "svelte": "^3.55.1",
+    "svelte-check": "^3.0.3",
+    "svelte-preprocess": "^5.0.1",
+    "tslib": "^2.5.0",
+    "typescript": "^4.9.5",
+    "unocss": "^0.49.7",
+    "vite": "^4.1.3",
+    "vitest": "^0.28.5"
+  }
+}
