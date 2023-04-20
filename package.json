@@ -12,16 +12,16 @@
     "format": "prettier --write --plugin-search-dir=. \"./**/*.svelte\" --write"
   },
   "devDependencies": {
-    "@iconify-json/logos": "^1.1.24",
+    "@iconify-json/logos": "^1.1.25",
     "@sveltejs/vite-plugin-svelte": "^2.0.4",
     "@tsconfig/svelte": "^4.0.1",
     "@typescript-eslint/eslint-plugin": "^5.59.0",
-    "@unocss/core": "^0.51.4",
-    "@unocss/extractor-svelte": "^0.51.4",
-    "@unocss/preset-attributify": "^0.51.4",
-    "@unocss/preset-icons": "^0.51.4",
-    "@unocss/preset-typography": "^0.51.4",
-    "@unocss/preset-uno": "^0.51.4",
+    "@unocss/core": "^0.51.5",
+    "@unocss/extractor-svelte": "^0.51.5",
+    "@unocss/preset-attributify": "^0.51.5",
+    "@unocss/preset-icons": "^0.51.5",
+    "@unocss/preset-typography": "^0.51.5",
+    "@unocss/preset-uno": "^0.51.5",
     "eslint": "^8.38.0",
     "eslint-config-prettier": "^8.8.0",
     "eslint-plugin-svelte3": "^4.0.0",
@@ -32,8 +32,8 @@
     "svelte-preprocess": "^5.0.3",
     "tslib": "^2.5.0",
     "typescript": "^5.0.4",
-    "unocss": "^0.51.4",
-    "vite": "^4.2.1",
+    "unocss": "^0.51.5",
+    "vite": "^4.2.2",
     "vitest": "^0.30.1"
   }
 }
