@@ -18,7 +18,7 @@
 	<span class="logo" />
 
 	{#if logo}
-		<span class:logo in:fly={{ y: 200, duration: 2000 }} out:fade />
+		<span class:logo in:fly|global={{ y: 200, duration: 2000 }} out:fade|global />
 	{/if}
 
 	<h1 class="animate-bounce">Hello Typescript!</h1>
